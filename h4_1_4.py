@@ -1,8 +1,8 @@
-def is_palindrome(s):
-   return s==s[::-1]
+def is_palindrome(word):
+   return word==word[::-1]
 
 while True:
-   print(is_palindrome(str(input('Введите слово: '))))
+   print(is_palindrome(input('Введите слово: ')))
 
 
 
